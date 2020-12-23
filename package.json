@@ -9,6 +9,7 @@
   "scripts": {
     "start": "sanity start",
     "check": "sanity check",
+    "build": "sanity build public -y",
     "lint": "eslint ./",
     "test": "jest"
   },

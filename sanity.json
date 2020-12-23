@@ -4,8 +4,8 @@
     "name": "nacelle-sanity"
   },
   "api": {
-    "projectId": "ciu31kkt",
-    "dataset": "production"
+    "projectId": "tw5gcwis",
+    "dataset": "nacelle"
   },
   "plugins": [
     "@sanity/base",
@@ -16,9 +16,7 @@
   ],
   "env": {
     "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
+      "plugins": ["@sanity/vision"]
     }
   },
   "parts": [
